@@ -76,7 +76,7 @@ const Navbar = () => {
           </div>
 
           <a
-            href="https://t.me/"
+            href="https://t.me/deliprobot"
             target="_blank"
             rel="noreferrer"
             data-testid="nav-cta"
@@ -600,11 +600,11 @@ const FinalCTA = () => {
             <h2 className="font-display text-[36px] md:text-[64px] leading-[1.02] font-semibold tracking-tight">{t.cta.title}</h2>
             <p className="mt-4 text-[16px] md:text-[18px] text-gray-300">{t.cta.subtitle}</p>
             <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-              <a href="https://t.me/" data-testid="cta-primary" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-2xl bg-[#ff7652] text-white px-6 h-14 text-[15px] font-bold shadow-[0_20px_40px_rgba(255,118,82,0.45)] hover:bg-[#e65c38] transition-colors">
+              <a href="https://t.me/deliprobot" data-testid="cta-primary" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-2xl bg-[#ff7652] text-white px-6 h-14 text-[15px] font-bold shadow-[0_20px_40px_rgba(255,118,82,0.45)] hover:bg-[#e65c38] transition-colors">
                 <MessageCircle size={18} strokeWidth={2.5} />
                 {t.cta.button}
               </a>
-              <a href="mailto:hello@delipro.app" data-testid="cta-secondary" className="inline-flex items-center gap-2 rounded-2xl bg-white/10 text-white border border-white/20 px-5 h-14 text-[15px] font-bold hover:bg-white/20 transition-colors">
+              <a href="mailto:myshchyshyn9898@gmail.coj" data-testid="cta-secondary" className="inline-flex items-center gap-2 rounded-2xl bg-white/10 text-white border border-white/20 px-5 h-14 text-[15px] font-bold hover:bg-white/20 transition-colors">
                 <Mail size={18} strokeWidth={2.5} />
                 {t.cta.secondary}
               </a>
@@ -646,8 +646,8 @@ const Footer = () => {
         <div>
           <div className="text-[11px] font-black uppercase tracking-wider text-gray-400 mb-3">{t.footer.contact}</div>
           <ul className="space-y-2 text-[14px] font-semibold text-gray-700">
-            <li><a href="mailto:hello@delipro.app">hello@delipro.app</a></li>
-            <li><a href="https://t.me/">Telegram</a></li>
+            <li><a href="mailto:myshchyshyn9898@gmail.com">myshchyshyn9898@gmail.com</a></li>
+            <li><a href="https://t.me/deliprobot">Telegram</a></li>
           </ul>
         </div>
       </div>

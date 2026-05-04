@@ -127,8 +127,10 @@ export const translations = {
       title: 'Готовий побачити, як це виглядає наживо?',
       subtitle: 'Відкрий DeliPro в Telegram і за 15 хвилин твій заклад вже приймає перше замовлення.',
       button: 'Відкрити в Telegram',
-      secondary: 'Написати нам',
-    },
+      buttonUrl: 'https://t.me/deliprobot', // <-- Додаєш посилання сюди
+      secondary: 'mailto:myshchyshyn9898@gmail.com',
+      secondaryUrl: '' // <-- І сюди (можна посилання на сайт, інсту чи пошту)
+    }
     footer: {
       tagline: 'Центр керування доставкою, що живе в Telegram.',
       product: 'Продукт',
