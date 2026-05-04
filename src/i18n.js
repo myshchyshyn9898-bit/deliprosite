@@ -123,14 +123,14 @@ export const translations = {
         { q: 'Що відбувається після 14 днів?', a: 'Обираєш план або продовжуєш на Starter. Дані ніколи не видаляються.' },
       ],
     },
-    cta: {
+cta: {
       title: 'Готовий побачити, як це виглядає наживо?',
       subtitle: 'Відкрий DeliPro в Telegram і за 15 хвилин твій заклад вже приймає перше замовлення.',
       button: 'Відкрити в Telegram',
-      buttonUrl: 'https://t.me/deliprobot', // <-- Додаєш посилання сюди
-      secondary: 'mailto:myshchyshyn9898@gmail.com',
-      secondaryUrl: '' // <-- І сюди (можна посилання на сайт, інсту чи пошту)
-    }
+      buttonUrl: 'https://t.me/deliprobot', 
+      secondary: 'Написати нам', // <-- Текст кнопки
+      secondaryUrl: 'mailto:myshchyshyn9898@gmail.com' // <-- Посилання для кліку
+    }, // <--- ОСЬ ЦЯ КОМА ВРЯТУЄ ТВІЙ ДЕПЛОЙ НА VERCEL!
     footer: {
       tagline: 'Центр керування доставкою, що живе в Telegram.',
       product: 'Продукт',
